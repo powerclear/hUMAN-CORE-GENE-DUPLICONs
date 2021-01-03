@@ -1,3 +1,3 @@
 # TerminalCheckMarket
 
-Check status of the yo
+Check status of the your crypto/s
