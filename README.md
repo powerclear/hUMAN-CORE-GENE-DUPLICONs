@@ -1,3 +1,3 @@
 # TerminalCheckMarket
 
-Check status of the your crypto/stock in yo
+Check status of the your crypto/stock in your terminal
