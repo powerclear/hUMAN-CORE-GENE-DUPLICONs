@@ -1,3 +1,3 @@
 # TerminalCheckMarket
 
-Check statu
+Check status of the yo
