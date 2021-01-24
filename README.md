@@ -4,4 +4,4 @@ Check status of the your crypto/stock in your terminal
 
 Basic Wireframe:
 
-![Basic Wireframe Image](image
+![Basic Wireframe Image](images/BasicWir
