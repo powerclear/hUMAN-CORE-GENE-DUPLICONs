@@ -17,4 +17,5 @@ import (
 	"github.com/gizak/termui/v3/widgets"
 )
 
-type Config 
+type Config struct {
+	
