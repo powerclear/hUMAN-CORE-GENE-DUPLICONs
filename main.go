@@ -18,4 +18,4 @@ import (
 )
 
 type Config struct {
-	CryptoStock             []string `yaml:"CR
+	CryptoStock             []string `yaml:"CRYPTO_STOCK
