@@ -19,4 +19,4 @@ import (
 
 type Config struct {
 	CryptoStock             []string `yaml:"CRYPTO_STOCK"`
-	CoinApiKey              string   `ya
+	CoinApiKey              string   `yaml:"COIN_API_K
