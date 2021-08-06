@@ -22,3 +22,5 @@ type Config struct {
 	CoinApiKey              string   `yaml:"COIN_API_KEY"`
 	CoinApiExchangeCurrency string   `yaml:"COIN_API_EXCHANGE_CURRENCY"`
 }
+
+type S
