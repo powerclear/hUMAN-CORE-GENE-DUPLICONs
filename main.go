@@ -23,4 +23,5 @@ type Config struct {
 	CoinApiExchangeCurrency string   `yaml:"COIN_API_EXCHANGE_CURRENCY"`
 }
 
-type SpecificRate struct
+type SpecificRate struct {
+	Time s
