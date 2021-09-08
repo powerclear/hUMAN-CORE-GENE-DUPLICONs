@@ -25,4 +25,5 @@ type Config struct {
 
 type SpecificRate struct {
 	Time string
-	Rate float6
+	Rate float64
+}
