@@ -24,4 +24,5 @@ type Config struct {
 }
 
 type SpecificRate struct {
-	Time s
+	Time string
+	Rat
