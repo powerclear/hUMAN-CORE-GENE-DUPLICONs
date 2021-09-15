@@ -27,3 +27,5 @@ type SpecificRate struct {
 	Time string
 	Rate float64
 }
+
+typ
