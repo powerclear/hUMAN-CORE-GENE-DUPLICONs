@@ -28,4 +28,5 @@ type SpecificRate struct {
 	Rate float64
 }
 
-type TimeSeriesData st
+type TimeSeriesData struct {
+	T
