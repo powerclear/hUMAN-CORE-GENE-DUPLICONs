@@ -30,4 +30,5 @@ type SpecificRate struct {
 
 type TimeSeriesData struct {
 	TimePeriodStart string
-	TimePeriodEnd   strin
+	TimePeriodEnd   string
+	RateClose 
