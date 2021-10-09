@@ -34,4 +34,4 @@ type TimeSeriesData struct {
 	RateClose       float64
 }
 
-func (c *Config) 
+func (c *Config) getCo
