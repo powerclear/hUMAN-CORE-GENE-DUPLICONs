@@ -34,4 +34,6 @@ type TimeSeriesData struct {
 	RateClose       float64
 }
 
-func (c *Config) getConfig() *Config 
+func (c *Config) getConfig() *Config {
+
+	os.Sete
