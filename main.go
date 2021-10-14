@@ -36,4 +36,4 @@ type TimeSeriesData struct {
 
 func (c *Config) getConfig() *Config {
 
-	os.Setenv("TERMINAL_CHECK_MA
+	os.Setenv("TERMINAL_CHECK_MARKET_CONFIG
