@@ -36,4 +36,6 @@ type TimeSeriesData struct {
 
 func (c *Config) getConfig() *Config {
 
-	os.Setenv("TERMINAL_CHECK_MARKET_CONFIG_PATH", "config.yaml"
+	os.Setenv("TERMINAL_CHECK_MARKET_CONFIG_PATH", "config.yaml")
+
+	conf
