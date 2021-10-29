@@ -38,4 +38,4 @@ func (c *Config) getConfig() *Config {
 
 	os.Setenv("TERMINAL_CHECK_MARKET_CONFIG_PATH", "config.yaml")
 
-	configFilePath := os.Getenv(
+	configFilePath := os.Getenv("TERMINAL_CH
