@@ -40,4 +40,4 @@ func (c *Config) getConfig() *Config {
 
 	configFilePath := os.Getenv("TERMINAL_CHECK_MARKET_CONFIG_PATH")
 	if len(configFilePath) == 0 {
-		o
+		os.Exit(1)
