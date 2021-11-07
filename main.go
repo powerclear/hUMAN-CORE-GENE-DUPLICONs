@@ -43,4 +43,4 @@ func (c *Config) getConfig() *Config {
 		os.Exit(1)
 	}
 
-	yam
+	yamlFile, er
