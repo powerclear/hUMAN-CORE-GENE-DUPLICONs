@@ -45,3 +45,4 @@ func (c *Config) getConfig() *Config {
 
 	yamlFile, err := ioutil.ReadFile(configFilePath)
 	if err != nil {
+		fmt.Println(
