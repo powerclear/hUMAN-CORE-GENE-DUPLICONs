@@ -45,4 +45,5 @@ func (c *Config) getConfig() *Config {
 
 	yamlFile, err := ioutil.ReadFile(configFilePath)
 	if err != nil {
-		fmt.Println("Error in getting yaml file path",
+		fmt.Println("Error in getting yaml file path", err)
+	
