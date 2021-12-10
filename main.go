@@ -47,3 +47,6 @@ func (c *Config) getConfig() *Config {
 	if err != nil {
 		fmt.Println("Error in getting yaml file path", err)
 		os.Exit(1)
+	}
+
+	er
