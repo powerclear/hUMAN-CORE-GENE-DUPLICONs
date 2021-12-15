@@ -49,4 +49,4 @@ func (c *Config) getConfig() *Config {
 		os.Exit(1)
 	}
 
-	er
+	err = yaml.Unmar
