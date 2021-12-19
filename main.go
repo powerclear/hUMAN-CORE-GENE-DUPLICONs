@@ -50,3 +50,4 @@ func (c *Config) getConfig() *Config {
 	}
 
 	err = yaml.Unmarshal(yamlFile, c)
+	if er
