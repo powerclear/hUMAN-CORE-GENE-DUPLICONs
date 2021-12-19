@@ -49,4 +49,4 @@ func (c *Config) getConfig() *Config {
 		os.Exit(1)
 	}
 
-	err = yaml.Unmarshal(yamlFile,
+	err = yaml.Unmarshal(yamlFile, c)
