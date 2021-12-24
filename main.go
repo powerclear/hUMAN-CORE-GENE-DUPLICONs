@@ -50,4 +50,5 @@ func (c *Config) getConfig() *Config {
 	}
 
 	err = yaml.Unmarshal(yamlFile, c)
-	if err != nil 
+	if err != nil {
+		fmt.P
