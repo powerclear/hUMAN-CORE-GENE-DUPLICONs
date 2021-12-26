@@ -51,4 +51,4 @@ func (c *Config) getConfig() *Config {
 
 	err = yaml.Unmarshal(yamlFile, c)
 	if err != nil {
-		fmt.Println("Error in reading yaml
+		fmt.Println("Error in reading yaml fil
