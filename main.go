@@ -58,4 +58,4 @@ func (c *Config) getConfig() *Config {
 	return c
 }
 
-f
+func ge
