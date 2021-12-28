@@ -55,4 +55,7 @@ func (c *Config) getConfig() *Config {
 		os.Exit(1)
 	}
 
-	ret
+	return c
+}
+
+f
