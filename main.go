@@ -58,4 +58,4 @@ func (c *Config) getConfig() *Config {
 	return c
 }
 
-func getCurrentPrice(config Config
+func getCurrentPrice(config Config, cr
