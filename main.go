@@ -58,4 +58,4 @@ func (c *Config) getConfig() *Config {
 	return c
 }
 
-func getCurrentPrice(config Config, crypto string) (*Speci
+func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
