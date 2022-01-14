@@ -59,4 +59,4 @@ func (c *Config) getConfig() *Config {
 }
 
 func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
-	client 
+	client := &htt
