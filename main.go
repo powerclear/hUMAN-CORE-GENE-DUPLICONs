@@ -62,4 +62,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	client := &http.Client{}
 
 	url := "https://rest.coinapi.io/v1/exchangerate/" + crypto + "/" + config.CoinApiExchangeCurrency
-	re
+	request, 
