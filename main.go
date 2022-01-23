@@ -65,4 +65,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	request, err := http.NewRequest("GET", url, nil)
 
 	if err != nil {
-		log
+		log.Fatal
