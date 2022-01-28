@@ -69,4 +69,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 		return nil, err
 	}
 
-	request.H
+	request.Header.S
