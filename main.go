@@ -69,4 +69,6 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 		return nil, err
 	}
 
-	request.Header.Set("X-CoinAPI-Key", config.CoinApi
+	request.Header.Set("X-CoinAPI-Key", config.CoinApiKey)
+
+	
