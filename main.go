@@ -74,4 +74,5 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	response, err := client.Do(request)
 	if err != nil {
 		log.Fatal(err)
-		return nil, 
+		return nil, err
+	
