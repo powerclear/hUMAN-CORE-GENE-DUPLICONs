@@ -77,4 +77,6 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 		return nil, err
 	}
 
-	defer response.Body.Clos
+	defer response.Body.Close()
+
+	bodyB
