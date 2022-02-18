@@ -79,4 +79,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 
 	defer response.Body.Close()
 
-	bodyBytes, err :=
+	bodyBytes, err := ioutil.Re
