@@ -82,3 +82,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	bodyBytes, err := ioutil.ReadAll(response.Body)
 	if err != nil {
 		log.Fatal(err)
+		return ni
