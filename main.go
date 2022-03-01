@@ -83,3 +83,6 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	if err != nil {
 		log.Fatal(err)
 		return nil, err
+	}
+
+	bodyString
