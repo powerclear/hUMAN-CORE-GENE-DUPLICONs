@@ -85,4 +85,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 		return nil, err
 	}
 
-	bodyString := string(bod
+	bodyString := string(bodyByte
