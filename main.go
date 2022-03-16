@@ -86,4 +86,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	}
 
 	bodyString := string(bodyBytes)
-	jsonData :=
+	jsonData := SpecificRate{}
