@@ -89,4 +89,5 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	jsonData := SpecificRate{}
 
 	err = json.Unmarshal([]byte(bodyString), &jsonData)
-	if err != 
+	if err != nil {
+		log.Fata
