@@ -97,4 +97,4 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 	return &jsonData, nil
 }
 
-func getOneDayData(config Config, crypto string) (*[]Ti
+func getOneDayData(config Config, crypto string) (*[]TimeSeriesD
