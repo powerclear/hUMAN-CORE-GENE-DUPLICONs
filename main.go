@@ -98,4 +98,6 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 }
 
 func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
-	client := &http.Client{
+	client := &http.Client{}
+
+	url
