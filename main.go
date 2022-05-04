@@ -100,4 +100,5 @@ func getCurrentPrice(config Config, crypto string) (*SpecificRate, error) {
 func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 	client := &http.Client{}
 
-	url := "https://rest.coinapi.io/v1/exchangerate/" + crypto + "/" + config.CoinApiExchang
+	url := "https://rest.coinapi.io/v1/exchangerate/" + crypto + "/" + config.CoinApiExchangeCurrency +
+		"/
