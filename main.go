@@ -101,4 +101,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 	client := &http.Client{}
 
 	url := "https://rest.coinapi.io/v1/exchangerate/" + crypto + "/" + config.CoinApiExchangeCurrency +
-		"/history?period_id=
+		"/history?period_id=1HRS&time_st
