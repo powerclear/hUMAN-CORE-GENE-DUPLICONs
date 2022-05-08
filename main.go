@@ -101,4 +101,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 	client := &http.Client{}
 
 	url := "https://rest.coinapi.io/v1/exchangerate/" + crypto + "/" + config.CoinApiExchangeCurrency +
-		"/history?period_id=1HRS&time_start=" + fmt.Sprintf(time.Now().AddDate(0, 0, -1).For
+		"/history?period_id=1HRS&time_start=" + fmt.Sprintf(time.Now().AddDate(0, 0, -1).Format("2006-0
