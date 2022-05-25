@@ -105,4 +105,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 
 	request, err := http.NewRequest("GET", url, nil)
 
-	if er
+	if err != nil 
