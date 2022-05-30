@@ -110,4 +110,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 		return nil, err
 	}
 
-	request.Header.Set("X-C
+	request.Header.Set("X-CoinAPI-K
