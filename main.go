@@ -112,4 +112,5 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 
 	request.Header.Set("X-CoinAPI-Key", config.CoinApiKey)
 
-	response, err := client.Do(reque
+	response, err := client.Do(request)
+	if 
