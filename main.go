@@ -115,4 +115,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 	response, err := client.Do(request)
 	if err != nil {
 		log.Fatal(err)
-	
+		return n
