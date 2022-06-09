@@ -118,4 +118,6 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 		return nil, err
 	}
 
-	defer response.Body.Clo
+	defer response.Body.Close()
+
+	
