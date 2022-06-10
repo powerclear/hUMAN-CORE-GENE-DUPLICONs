@@ -120,4 +120,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 
 	defer response.Body.Close()
 
-	bodyBytes, e
+	bodyBytes, err := 
