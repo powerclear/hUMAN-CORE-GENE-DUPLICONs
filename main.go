@@ -120,4 +120,5 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 
 	defer response.Body.Close()
 
-	bodyBytes, err := ioutil.ReadAll(response.Bo
+	bodyBytes, err := ioutil.ReadAll(response.Body)
+	if err !
