@@ -123,4 +123,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 	bodyBytes, err := ioutil.ReadAll(response.Body)
 	if err != nil {
 		log.Fatal(err)
-		return ni
+		return nil, err
