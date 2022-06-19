@@ -126,4 +126,5 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 		return nil, err
 	}
 
-	bodyString := string(bodyByte
+	bodyString := string(bodyBytes)
+	jsonD
