@@ -131,4 +131,5 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 
 	err = json.Unmarshal([]byte(bodyString), &jsonData)
 	if err != nil {
-		log.Fatal(er
+		log.Fatal(err)
+		
