@@ -138,4 +138,5 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 	return &jsonData, nil
 }
 
-func main(
+func main() {
+
