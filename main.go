@@ -140,3 +140,4 @@ func getOneDayData(config Config, crypto string) (*[]TimeSeriesData, error) {
 
 func main() {
 
+	var con
