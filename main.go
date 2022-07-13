@@ -143,4 +143,5 @@ func main() {
 	var config Config
 	config.getConfig()
 
-	if err := ui.Init(); err != nil
+	if err := ui.Init(); err != nil {
+		log.
