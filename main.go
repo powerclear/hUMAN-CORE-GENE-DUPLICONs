@@ -144,4 +144,4 @@ func main() {
 	config.getConfig()
 
 	if err := ui.Init(); err != nil {
-		log.Fatalf("fail
+		log.Fatalf("failed 
