@@ -144,4 +144,4 @@ func main() {
 	config.getConfig()
 
 	if err := ui.Init(); err != nil {
-		log.Fatalf("failed to initialize te
+		log.Fatalf("failed to initialize termui: 
