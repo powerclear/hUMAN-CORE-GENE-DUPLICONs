@@ -144,4 +144,4 @@ func main() {
 	config.getConfig()
 
 	if err := ui.Init(); err != nil {
-		log.Fatalf("failed to initia
+		log.Fatalf("failed to initialize te
