@@ -146,4 +146,4 @@ func main() {
 	if err := ui.Init(); err != nil {
 		log.Fatalf("failed to initialize termui: %v", err)
 	}
-	d
+	defer ui.Clo
