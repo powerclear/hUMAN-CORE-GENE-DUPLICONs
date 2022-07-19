@@ -148,4 +148,4 @@ func main() {
 	}
 	defer ui.Close()
 
-	cryptoWidget := widgets.N
+	cryptoWidget := widgets.NewList(
