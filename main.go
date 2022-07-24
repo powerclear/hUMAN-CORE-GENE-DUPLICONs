@@ -149,4 +149,4 @@ func main() {
 	defer ui.Close()
 
 	cryptoWidget := widgets.NewList()
-	cryptoWidget.Title = "Crypto Wat
+	cryptoWidget.Title = "Crypto Watchlist"
