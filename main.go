@@ -150,4 +150,4 @@ func main() {
 
 	cryptoWidget := widgets.NewList()
 	cryptoWidget.Title = "Crypto Watchlist"
-	cryptoWidget.Rows = 
+	cryptoWidget.Rows = config.CryptoS
