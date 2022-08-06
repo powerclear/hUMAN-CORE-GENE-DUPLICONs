@@ -152,4 +152,5 @@ func main() {
 	cryptoWidget.Title = "Crypto Watchlist"
 	cryptoWidget.Rows = config.CryptoStock
 	cryptoWidget.TextStyle = ui.NewStyle(ui.ColorYellow)
-	cryptoWidget.WrapText = fals
+	cryptoWidget.WrapText = false
+	cry
