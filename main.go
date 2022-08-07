@@ -153,4 +153,4 @@ func main() {
 	cryptoWidget.Rows = config.CryptoStock
 	cryptoWidget.TextStyle = ui.NewStyle(ui.ColorYellow)
 	cryptoWidget.WrapText = false
-	cryptoWidget.SetRect(110, 0, 14
+	cryptoWidget.SetRect(110, 0, 140, 17)
