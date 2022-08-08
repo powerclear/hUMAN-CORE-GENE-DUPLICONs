@@ -154,3 +154,5 @@ func main() {
 	cryptoWidget.TextStyle = ui.NewStyle(ui.ColorYellow)
 	cryptoWidget.WrapText = false
 	cryptoWidget.SetRect(110, 0, 140, 17)
+
+	headingWid
