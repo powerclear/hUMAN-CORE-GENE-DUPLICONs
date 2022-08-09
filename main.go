@@ -156,3 +156,4 @@ func main() {
 	cryptoWidget.SetRect(110, 0, 140, 17)
 
 	headingWidget := widgets.NewParagraph()
+	headin
