@@ -156,4 +156,5 @@ func main() {
 	cryptoWidget.SetRect(110, 0, 140, 17)
 
 	headingWidget := widgets.NewParagraph()
-	headingWidget.Title = "Name of the Crypto/Sto
+	headingWidget.Title = "Name of the Crypto/Stock"
+	headingWi
