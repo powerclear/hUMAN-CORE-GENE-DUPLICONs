@@ -157,4 +157,4 @@ func main() {
 
 	headingWidget := widgets.NewParagraph()
 	headingWidget.Title = "Name of the Crypto/Stock"
-	headingWi
+	headingWidget.
