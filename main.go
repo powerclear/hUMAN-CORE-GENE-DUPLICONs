@@ -158,4 +158,6 @@ func main() {
 	headingWidget := widgets.NewParagraph()
 	headingWidget.Title = "Name of the Crypto/Stock"
 	headingWidget.Text = ""
-	headingWidget.SetRect(0, 0, 100, 
+	headingWidget.SetRect(0, 0, 100, 5)
+
+	sinData :=
