@@ -160,4 +160,5 @@ func main() {
 	headingWidget.Text = ""
 	headingWidget.SetRect(0, 0, 100, 5)
 
-	sinData := func() [][]fl
+	sinData := func() [][]float64 {
+		n
