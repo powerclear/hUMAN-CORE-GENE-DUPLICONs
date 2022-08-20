@@ -161,4 +161,5 @@ func main() {
 	headingWidget.SetRect(0, 0, 100, 5)
 
 	sinData := func() [][]float64 {
-		n
+		n := 220
+		da
