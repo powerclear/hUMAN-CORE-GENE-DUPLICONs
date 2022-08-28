@@ -162,4 +162,5 @@ func main() {
 
 	sinData := func() [][]float64 {
 		n := 220
-		data := make([][]float64, 2
+		data := make([][]float64, 2)
+		data[0] = 
