@@ -165,4 +165,5 @@ func main() {
 		data := make([][]float64, 2)
 		data[0] = make([]float64, n)
 		data[1] = make([]float64, n)
-		for i := 0; i < n; i++ 
+		for i := 0; i < n; i++ {
+			data[0]
