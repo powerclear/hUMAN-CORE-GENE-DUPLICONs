@@ -166,4 +166,5 @@ func main() {
 		data[0] = make([]float64, n)
 		data[1] = make([]float64, n)
 		for i := 0; i < n; i++ {
-			data[0][i] = 1 + math.Sin(float64(i)/
+			data[0][i] = 1 + math.Sin(float64(i)/5)
+			data[1][
