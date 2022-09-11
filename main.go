@@ -170,4 +170,6 @@ func main() {
 			data[1][i] = 1 + math.Cos(float64(i)/5)
 		}
 		return data
-	
+	}()
+
+	graphW
