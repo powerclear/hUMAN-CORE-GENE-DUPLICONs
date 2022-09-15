@@ -172,4 +172,5 @@ func main() {
 		return data
 	}()
 
-	graphWidget := widgets.NewP
+	graphWidget := widgets.NewPlot()
+	gra
