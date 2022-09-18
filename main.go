@@ -174,4 +174,4 @@ func main() {
 
 	graphWidget := widgets.NewPlot()
 	graphWidget.Title = "1 Day Change"
-	g
+	graphWidget.Marker 
