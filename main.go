@@ -173,4 +173,4 @@ func main() {
 	}()
 
 	graphWidget := widgets.NewPlot()
-	gra
+	graphWidget.Ti
