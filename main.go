@@ -173,4 +173,4 @@ func main() {
 	}()
 
 	graphWidget := widgets.NewPlot()
-	graphWidget.Ti
+	graphWidget.Title = "1 Day C
