@@ -175,4 +175,5 @@ func main() {
 	graphWidget := widgets.NewPlot()
 	graphWidget.Title = "1 Day Change"
 	graphWidget.Marker = widgets.MarkerDot
-	graphWidget.Data = make([][]f
+	graphWidget.Data = make([][]float64, 2)
+	
