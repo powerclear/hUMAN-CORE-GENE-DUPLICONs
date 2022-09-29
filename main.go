@@ -176,4 +176,4 @@ func main() {
 	graphWidget.Title = "1 Day Change"
 	graphWidget.Marker = widgets.MarkerDot
 	graphWidget.Data = make([][]float64, 2)
-	graphWidget.Data[0] = []float64{1
+	graphWidget.Data[0] = []float64{1, 2, 3
