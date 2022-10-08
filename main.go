@@ -179,4 +179,4 @@ func main() {
 	graphWidget.Data[0] = []float64{1, 2, 3, 4, 5}
 	graphWidget.Data[1] = sinData[1][4:]
 	graphWidget.SetRect(0, 12, 100, 40)
-	graphWidget.AxesColor
+	graphWidget.AxesColor = ui.Color
