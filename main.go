@@ -180,4 +180,4 @@ func main() {
 	graphWidget.Data[1] = sinData[1][4:]
 	graphWidget.SetRect(0, 12, 100, 40)
 	graphWidget.AxesColor = ui.ColorWhite
-	graphWidget
+	graphWidget.LineCo
