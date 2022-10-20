@@ -181,4 +181,4 @@ func main() {
 	graphWidget.SetRect(0, 12, 100, 40)
 	graphWidget.AxesColor = ui.ColorWhite
 	graphWidget.LineColors[0] = ui.ColorCyan
-	graph
+	graphWidget.Plot
