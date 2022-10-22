@@ -183,4 +183,4 @@ func main() {
 	graphWidget.LineColors[0] = ui.ColorCyan
 	graphWidget.PlotType = widgets.ScatterPlot
 
-	errorWidget := widget
+	errorWidget := widgets.NewParagra
