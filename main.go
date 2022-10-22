@@ -181,4 +181,6 @@ func main() {
 	graphWidget.SetRect(0, 12, 100, 40)
 	graphWidget.AxesColor = ui.ColorWhite
 	graphWidget.LineColors[0] = ui.ColorCyan
-	graphWidget.PlotType = widgets.ScatterPl
+	graphWidget.PlotType = widgets.ScatterPlot
+
+	error
