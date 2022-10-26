@@ -184,4 +184,4 @@ func main() {
 	graphWidget.PlotType = widgets.ScatterPlot
 
 	errorWidget := widgets.NewParagraph()
-	errorWidget.Title 
+	errorWidget.Title = "Error"
