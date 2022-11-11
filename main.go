@@ -186,4 +186,6 @@ func main() {
 	errorWidget := widgets.NewParagraph()
 	errorWidget.Title = "Error"
 	errorWidget.Text = ""
-	errorWidget.SetRect(0, 5, 1
+	errorWidget.SetRect(0, 5, 100, 10)
+
+	u
