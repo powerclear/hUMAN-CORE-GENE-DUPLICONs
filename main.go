@@ -188,4 +188,4 @@ func main() {
 	errorWidget.Text = ""
 	errorWidget.SetRect(0, 5, 100, 10)
 
-	ui.Render(headingWidget, graphWidget, crypto
+	ui.Render(headingWidget, graphWidget, cryptoWidget, er
