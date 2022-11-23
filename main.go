@@ -189,3 +189,5 @@ func main() {
 	errorWidget.SetRect(0, 5, 100, 10)
 
 	ui.Render(headingWidget, graphWidget, cryptoWidget, errorWidget)
+
+	uiEvents :
