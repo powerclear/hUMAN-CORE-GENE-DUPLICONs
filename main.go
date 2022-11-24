@@ -190,4 +190,6 @@ func main() {
 
 	ui.Render(headingWidget, graphWidget, cryptoWidget, errorWidget)
 
-	uiEvents := ui.PollEvents(
+	uiEvents := ui.PollEvents()
+
+	for 
