@@ -193,4 +193,4 @@ func main() {
 	uiEvents := ui.PollEvents()
 
 	for {
-		e 
+		e := <-uiE
