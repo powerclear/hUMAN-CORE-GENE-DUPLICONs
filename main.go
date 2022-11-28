@@ -194,4 +194,5 @@ func main() {
 
 	for {
 		e := <-uiEvents
-		switch e.
+		switch e.ID {
+		ca
