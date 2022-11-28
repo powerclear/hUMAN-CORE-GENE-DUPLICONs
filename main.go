@@ -194,4 +194,4 @@ func main() {
 
 	for {
 		e := <-uiEvents
-	
+		switch e.
