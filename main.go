@@ -197,4 +197,5 @@ func main() {
 		switch e.ID {
 		case "q", "<C-c>":
 			return
-		case "j", "D
+		case "j", "Down":
+		
