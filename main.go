@@ -198,4 +198,4 @@ func main() {
 		case "q", "<C-c>":
 			return
 		case "j", "Down":
-		
+			cryp
