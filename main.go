@@ -200,4 +200,4 @@ func main() {
 		case "j", "Down":
 			cryptoWidget.ScrollDown()
 		case "k", "<Up>":
-		
+			cryptoWidget.Scro
