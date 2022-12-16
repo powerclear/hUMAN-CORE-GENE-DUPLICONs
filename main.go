@@ -201,3 +201,5 @@ func main() {
 			cryptoWidget.ScrollDown()
 		case "k", "<Up>":
 			cryptoWidget.ScrollUp()
+		}
+
