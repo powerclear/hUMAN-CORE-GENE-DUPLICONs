@@ -203,4 +203,4 @@ func main() {
 			cryptoWidget.ScrollUp()
 		}
 
-		selectedCr
+		selectedCrypto := cr
