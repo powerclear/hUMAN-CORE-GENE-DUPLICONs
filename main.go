@@ -205,4 +205,4 @@ func main() {
 
 		selectedCrypto := cryptoWidget.Rows[cryptoWidget.SelectedRow]
 
-		currentPrice, err := getCur
+		currentPrice, err := getCurrentPrice(
