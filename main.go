@@ -207,4 +207,4 @@ func main() {
 
 		currentPrice, err := getCurrentPrice(config, selectedCrypto)
 
-		if er
+		if err != nil 
