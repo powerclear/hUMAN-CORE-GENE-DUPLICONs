@@ -208,4 +208,4 @@ func main() {
 		currentPrice, err := getCurrentPrice(config, selectedCrypto)
 
 		if err != nil {
-			
+			errorW
