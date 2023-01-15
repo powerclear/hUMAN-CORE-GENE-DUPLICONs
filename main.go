@@ -209,4 +209,4 @@ func main() {
 
 		if err != nil {
 			errorWidget.Text = err.Error()
-			ui.Render(headingWidget, grap
+			ui.Render(headingWidget, graphWidget, cr
