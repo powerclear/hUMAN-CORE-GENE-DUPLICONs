@@ -209,4 +209,5 @@ func main() {
 
 		if err != nil {
 			errorWidget.Text = err.Error()
-			ui.Render(headingWidget, graphWidget, cryptoWidget, errorW
+			ui.Render(headingWidget, graphWidget, cryptoWidget, errorWidget)
+			co
