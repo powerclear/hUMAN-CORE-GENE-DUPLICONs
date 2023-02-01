@@ -215,4 +215,5 @@ func main() {
 
 		timeSeriesData, err := getOneDayData(config, selectedCrypto)
 
-		if err !
+		if err != nil {
+	
