@@ -213,4 +213,4 @@ func main() {
 			continue
 		}
 
-		timeSeriesData, err := getOneDayData(c
+		timeSeriesData, err := getOneDayData(config, sel
