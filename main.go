@@ -216,4 +216,4 @@ func main() {
 		timeSeriesData, err := getOneDayData(config, selectedCrypto)
 
 		if err != nil {
-			errorWidget.Text
+			errorWidget.Text = err.Err
