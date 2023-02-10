@@ -217,4 +217,4 @@ func main() {
 
 		if err != nil {
 			errorWidget.Text = err.Error()
-			ui.Re
+			ui.Render(he
