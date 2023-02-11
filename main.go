@@ -217,4 +217,4 @@ func main() {
 
 		if err != nil {
 			errorWidget.Text = err.Error()
-			ui.Render(headingWidget, graphWidget, cryptoWidget
+			ui.Render(headingWidget, graphWidget, cryptoWidget, errorWi
