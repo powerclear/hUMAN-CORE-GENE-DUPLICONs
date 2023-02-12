@@ -221,4 +221,4 @@ func main() {
 			continue
 		}
 
-		fmt.
+		fmt.Println(tim
