@@ -221,4 +221,4 @@ func main() {
 			continue
 		}
 
-		fmt.Println(tim
+		fmt.Println(timeSeriesData)
