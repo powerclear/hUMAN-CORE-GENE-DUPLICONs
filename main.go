@@ -219,3 +219,6 @@ func main() {
 			errorWidget.Text = err.Error()
 			ui.Render(headingWidget, graphWidget, cryptoWidget, errorWidget)
 			continue
+		}
+
+		fmt.
