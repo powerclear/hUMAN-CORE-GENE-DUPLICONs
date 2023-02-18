@@ -223,4 +223,4 @@ func main() {
 
 		fmt.Println(timeSeriesData)
 
-		headingWidget.Text = fmt.Sprintln(select
+		headingWidget.Text = fmt.Sprintln(selectedCrypto
