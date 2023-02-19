@@ -223,4 +223,4 @@ func main() {
 
 		fmt.Println(timeSeriesData)
 
-		headingWidget.Text = fmt.Sprintln(selectedCrypto, "\n Current P
+		headingWidget.Text = fmt.Sprintln(selectedCrypto, "\n Current Price:",
